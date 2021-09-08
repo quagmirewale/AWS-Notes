@@ -1,0 +1,5 @@
+arn:aws:securityhub:us-west-2:594622552908:action/custom/isolateinstance
+
+https://data-discovery-and-classification.workshop.aws/
+
+https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=SecurityHubWorkshop&templateURL=https://sa-security-specialist-workshops-us-west-2.s3-us-west-2.amazonaws.com/security-hub-workshop/templates/sechub-workshop-setup-template.json
