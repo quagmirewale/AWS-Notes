@@ -1,5 +1,8 @@
+# AWS Certified Developer Associate Exam Notes
+
 ## **Serverless 101**
-````
+
+````text
 Serverless: 
     Enables you to build scalable applications quickly without managing any servers
 Low Cost: 
@@ -8,8 +11,9 @@ AWS Handles the Heavy Lifting:
     You can focus on writing code and building your application instead of configuring servers.
 ````
 
-## **Lambda** 
-````
+## **Lambda**
+
+````text
 Extremely Cost Effective: 
     Pay only when your code executes.
 Continuous Scaling:
@@ -39,7 +43,8 @@ Lambda Triggers:
 ````
 
 ## **API Gateway**
-````
+
+````text
 API Gateway:
     1. An API is like the front door to your application.
     2. API Gateway provides an endpoint to your applications running in AWS.
@@ -53,7 +58,8 @@ CloudWatch:
 ````
 
 ## **Lambda Versions**
-`````
+
+`````text
 1. $Latest: 
    1. $Latest is always the latest version of code you uploaded to Lambda
    
@@ -66,7 +72,7 @@ Special Note:
 
 ## **Lambda Concurrent Executions Limit**
 
-`````
+`````text
 1. There is a limit of 1,000 concurrent executions per second. If the limit is exceeded it will return 429 error codes.
 2. The remedy is to get the limit raised by AWS support
 3. Reserved concurrency guarantees a set number of concurrent exections are always available to a crtitcal function.
